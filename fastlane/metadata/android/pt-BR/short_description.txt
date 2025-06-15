@@ -1,0 +1,1 @@
+Lista diária de tarefas com marcação e reset automático.

@@ -1,0 +1,1 @@
+Cotidiano é um aplicativo para acompanhar tarefas diárias de forma simples e offline. Ideal para hábitos, rotinas ou lembretes diários, com persistência local.

@@ -14,6 +14,10 @@ android {
     namespace = "com.romulo.cotidiano"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

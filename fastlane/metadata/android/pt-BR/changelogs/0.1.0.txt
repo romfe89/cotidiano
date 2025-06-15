@@ -1,0 +1,1 @@
+Versão inicial estável com suporte a marcação diária de tarefas.

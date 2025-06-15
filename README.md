@@ -44,14 +44,14 @@ A chave de assinatura não está incluída no repositório por motivos de segura
 ## 📂 Estrutura do projeto
 
 lib/
-├── main.dart
-├── models/
-│ └── task.dart
-├── db/
-│ └── task_database.dart
-├── screens/
-│ └── task_list_screen.dart
-└── widgets/
+├── main.dart  
+├── models/  
+│ └── task.dart  
+├── db/  
+│ └── task_database.dart  
+├── screens/  
+│ └── task_list_screen.dart  
+└── widgets/  
 └── task_form.dart
 
 ## 🛠️ Tecnologias

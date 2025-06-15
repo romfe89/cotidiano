@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "appTitle": "Everyday",
+  "taskTitle": "Task Title",
+  "taskDescription": "Task Description",
+  "cancel": "Cancel",
+  "newTask": "New Task",
+  "editTask": "Edit Task",
+  "title": "Title",
+  "description": "Description",
+  "cancel": "Cancel",
+  "save": "Save"
+}

@@ -1,0 +1,1 @@
+Initial stable version with support for daily task marking.

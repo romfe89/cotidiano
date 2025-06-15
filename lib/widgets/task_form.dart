@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/task.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class TaskForm extends StatefulWidget {
   final Task? task;
@@ -35,27 +36,29 @@ class _TaskFormState extends State<TaskForm> {
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
+
     return AlertDialog(
-      title: Text(widget.task == null ? 'Nova Tarefa' : 'Editar Tarefa'),
+      title: Text(widget.task == null ? loc.newTask : loc.editTask),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           TextField(
             controller: _titleController,
-            decoration: InputDecoration(labelText: 'Título'),
+            decoration: InputDecoration(labelText: loc.title),
           ),
           TextField(
             controller: _descriptionController,
-            decoration: InputDecoration(labelText: 'Descrição'),
+            decoration: InputDecoration(labelText: loc.description),
           ),
         ],
       ),
       actions: [
         TextButton(
           onPressed: () => Navigator.pop(context),
-          child: Text('Cancelar'),
+          child: Text(loc.cancel),
         ),
-        ElevatedButton(onPressed: _submit, child: Text('Salvar')),
+        ElevatedButton(onPressed: _submit, child: Text(loc.save)),
       ],
     );
   }

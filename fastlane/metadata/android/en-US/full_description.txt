@@ -1,0 +1,1 @@
+Everyday is an app for tracking daily tasks in a simple and offline way. Ideal for habits, routines, or daily reminders, with local persistence.

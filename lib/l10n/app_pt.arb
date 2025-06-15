@@ -1,0 +1,13 @@
+{
+  "@@locale": "pt",
+  "appTitle": "Cotidiano",
+  "taskTitle": "Título da Tarefa",
+  "taskDescription": "Descrição da Tarefa",
+  "editTask": "Editar Tarefa",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "newTask": "Nova Tarefa",
+  "title": "Título",
+  "description": "Descrição",
+  "cancel": "Cancelar"
+}
